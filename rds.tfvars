@@ -1,2 +1,2 @@
-rds_username = "admin"
-rds_password = "MySecurePassword123"
+username = "admin"
+password = "MyStrongPass123!"
