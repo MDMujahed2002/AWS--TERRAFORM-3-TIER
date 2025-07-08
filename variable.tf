@@ -1,10 +1,10 @@
 variable "rds_username" {
-  description = "Username for the RDS instance"
+  description = "RDS master username"
   type        = string
 }
 
 variable "rds_password" {
-  description = "Password for the RDS instance"
+  description = "RDS master password"
   type        = string
   sensitive   = true
 }
