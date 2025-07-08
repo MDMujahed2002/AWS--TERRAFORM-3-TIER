@@ -1,5 +1,5 @@
-resource "aws_security_group" "rds_sg1" {
-  name        = "rds-sg"
+resource "aws_security_group" "rds_sg3" {
+  name        = "rds-sg2"
   description = "Allow MySQL access"
   vpc_id      = aws_vpc.myvpc.id
 
